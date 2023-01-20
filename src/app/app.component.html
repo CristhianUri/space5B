@@ -1,9 +1,11 @@
+<div class="text-center ">
+  <h1 class="nombre text-dark">Cristhian Uriel Castro Rosales</h1>
+</div>
 <div class="wrapper">
   <div class="gallery">
     <div class="item" *ngFor="let item of rocket">
       <h1>{{item.name}}</h1>
       <p>{{item.description}}</p>
-      <input type="number" [value]="item.name">
       <div class="imgs">
         <img [src]="img" alt="" *ngFor="let img of item.flickr_images">
       </div>
