@@ -1,5 +1,5 @@
 export class Rocket {
-    name :string = '';
-    description:string = '';
+    name :String = '';
+    description:String = '';
     flickr_images: String[]= [];
 }
